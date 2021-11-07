@@ -1,0 +1,50 @@
+{
+    "count": 5,
+    "trips": [
+        {
+            "place-name": "Croatia",
+            "date": "Summer 2016 - 14 days",
+            "image-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/NP001_nacionalni_park_sutjeska_perucica.jpg/2560px-NP001_nacionalni_park_sutjeska_perucica.jpg",
+            "description": {
+                "title": "The best holiday in Croatia",
+                "description-trip": "The present-day republic is composed of the historically Croatian regions of Croatia-Slavonia (located in the upper arm of the country), Istria (centred on the Istrian Peninsula on the northern Adriatic coast), and Dalmatia (corresponding to the coastal strip). Although these regions were ruled for centuries by various foreign powers, they remained firmly Western-oriented in culture, acquiring a legacy of Roman law, the Latin alphabet, and western European political and economic traditions and institutions. A part of Yugoslavia for much of the 20th century, Croatia suffered considerably from the disintegration of that federation in the early 1990s. The European trajectory of Croatia was finally realized in 2013 when it joined the European Union."
+            }
+        },
+        {
+            "place-name": "Warsaw",
+            "date": "Spring 2017 - 7 days",
+            "image-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Wilan%C3%B3w_Palace.jpg/2880px-Wilan%C3%B3w_Palace.jpg",
+            "description": {
+                "title": "The best holiday in Warsaw",
+                "description-trip": "Warsaw is notable among Europe’s capital cities not for its size, its age, or its beauty but for its indestructibility. It is a phoenix that has risen repeatedly from the ashes of war. Having suffered fearful damage during the Swedish and Prussian occupation of 1655–56, it was again assaulted in 1794, when the Russian army massacred the population of the right-bank suburb of Praga. In 1944, after the Warsaw Uprising failed, by Adolf Hitler’s order the city was razed; the left-bank suburbs, controlled by the Germans, were emptied of their remaining population; and the buildings were systematically reduced to rubble by fire and dynamite. In 1945, however, the people of Warsaw, the Varsovians, returned, and the city resumed its role as the capital of Poland and the country’s centre of social, political, economic, scientific, and cultural life. Many of the historical streets, buildings, and churches have been restored exactly according to their original forms."
+            }
+        },
+        {
+            "place-name": "Les Berthelots",
+            "date": "Spring 2017 - 10 days",
+            "image-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Jahorina_mountain_2018.jpg/2880px-Jahorina_mountain_2018.jpg",
+            "description": {
+                "title": "The best holiday in Les Berthelots",
+                "description-trip": "Les Berthelots in the region of Bourgogne is located in France - some 101 mi or ( 162 km ) South-East of Paris , the country's capital city."
+            }
+        },
+        {
+            "place-name": "Kappl",
+            "date": "Winter 2016 - 15 days",
+            "image-url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Kirche_Kappl_Tirol.jpg",
+            "description": {
+                "title": "The best skiing holiday in Kappl",
+                "description-trip": "Kappl can be found in the heart of the mountains, between the Verwall Group in the north and the Samnaun Group in the south. Once upon a time, the area was used for summer grazing by Rhaetians of the Swiss Engadine, and for this reason several names of alpine pastures have got Romansh origins. In the 17th century, the number of inhabitants started increasing in a way that many of them had to leave this area and go abroad to look for work. Also children were sent away: In that period of time, the 'Great Swabian Migration' started, which lasted up to the end of WWI."
+            }
+        },
+        {
+            "place-name": "Rotterdam",
+            "date": "Autumn 2016 - 11 days",
+            "image-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Erasmusbrug_seen_from_Euromast.jpg/2880px-Erasmusbrug_seen_from_Euromast.jpg",
+            "description": {
+                "title": "The best holiday in Rotterdam",
+                "description-trip": "Rotterdam's Old Harbor (Oude Haven), part of the city's revitalized Maritime District, is a boat basin filled with restored historic boats, including houseboats lived in by locals. In good weather, you can sit outside one of the many cafés and restaurants and enjoy people watching, or stroll around and watch the boats being painted or repaired. Signs identify the ages of the boats and show pictures of this area in its heyday as a commercial port and shipyard."
+            }
+        }
+    ]
+}
