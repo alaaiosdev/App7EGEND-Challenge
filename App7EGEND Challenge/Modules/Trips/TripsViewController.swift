@@ -69,14 +69,18 @@ extension TripsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         for cell in tableView.visibleCells {
-            if cell is TripTableViewCell {
-                if let selectedIndex = tableView.indexPath(for: cell), selectedIndex.row == indexPath.row {
-                    let cell = cell as? TripTableViewCell
-                    cell?.contentView.didSelectItemWithAnimate()
-                    let tripItem = viewModel.cellForRowAt(indexPath: indexPath)
+            if let selectedIndex = tableView.indexPath(for: cell),
+               selectedIndex.row == indexPath.row,
+               let cell = cell as? TripTableViewCell {
+                
+                cell.contentView.didSelectItemWithAnimate(completion: { [weak self] in
+                    guard let `self` = self else { return }
+                    let tripItem = self.viewModel.cellForRowAt(indexPath: indexPath)
                     let vc = TripDetailsViewController(tripDescriptionModel: tripItem?.description, backgroundImage: tripItem?.imageURL ?? "")
-                    present(vc, animated: true, completion: nil)
-                }
+                    vc.transitioningDelegate = self
+                    vc.transDelegate = self
+                    self.present(vc, animated: true, completion: nil)
+                })
             }
         }
     }
@@ -112,5 +116,17 @@ extension TripsViewController: UIScrollViewDelegate {
                 cell.layoutIfNeeded()
             })
         }
+    }
+}
+
+extension TripsViewController: UIViewControllerTransitioningDelegate, OpaqueViewControllerDelegate {
+    func opaqueViewControllerDelegateDidDismiss() { }
+    
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return CustomAnimation(animationDuration: 0.5, presenting: false)
+    }
+    
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return CustomAnimation(animationDuration: 0.2, presenting: true)
     }
 }

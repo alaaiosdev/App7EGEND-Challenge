@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIView {
-    func didSelectItemWithAnimate() {
+    func didSelectItemWithAnimate(completion: (() -> Void)?) {
         let animation = CABasicAnimation()
         animation.keyPath = "transform.scale"
         animation.fromValue = 1
@@ -24,6 +24,7 @@ extension UIView {
         },completion: { finish in
             UIView.animate(withDuration: 0.2){
                 self.transform = CGAffineTransform.identity
+                completion?()
             }
         })
     }

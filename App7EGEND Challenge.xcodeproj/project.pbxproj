@@ -32,6 +32,7 @@
 		42A4B040273820F200E582D6 /* TripDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4B03F273820F200E582D6 /* TripDetailsTableViewCell.swift */; };
 		42A4B0422738222D00E582D6 /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4B0412738222D00E582D6 /* TripDetailsViewModel.swift */; };
 		42A4B0442738237A00E582D6 /* App7EGENDSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4B0432738237A00E582D6 /* App7EGENDSizes.swift */; };
+		42A4B047273862E900E582D6 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A4B046273862E900E582D6 /* CustomAnimation.swift */; };
 		43CED1E1CBA4134C23A35AF0 /* Pods_App7EGEND_Challenge_App7EGEND_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6FB7D3C9B3AFAD8A384568 /* Pods_App7EGEND_Challenge_App7EGEND_ChallengeUITests.framework */; };
 		E07FB137F831998E04ACE4AC /* Pods_App7EGEND_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88ED97D174EE36706FC33315 /* Pods_App7EGEND_Challenge.framework */; };
 		EF8D4ACD42CCD1C39CF24666 /* Pods_App7EGEND_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E30713D95EC93ED5BE5DB4E /* Pods_App7EGEND_ChallengeTests.framework */; };
@@ -87,6 +88,7 @@
 		42A4B03F273820F200E582D6 /* TripDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		42A4B0412738222D00E582D6 /* TripDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewModel.swift; sourceTree = "<group>"; };
 		42A4B0432738237A00E582D6 /* App7EGENDSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App7EGENDSizes.swift; sourceTree = "<group>"; };
+		42A4B046273862E900E582D6 /* CustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimation.swift; sourceTree = "<group>"; };
 		4E853D2168AA793ED89281C1 /* Pods-App7EGEND Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App7EGEND Challenge.release.xcconfig"; path = "Target Support Files/Pods-App7EGEND Challenge/Pods-App7EGEND Challenge.release.xcconfig"; sourceTree = "<group>"; };
 		750E6D9739A5B25D75FB9823 /* Pods-App7EGEND ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App7EGEND ChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-App7EGEND ChallengeTests/Pods-App7EGEND ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		88ED97D174EE36706FC33315 /* Pods_App7EGEND_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App7EGEND_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				42A4AFF0273168D200E582D6 /* UIAnimation */,
+				42A4B045273862C200E582D6 /* Managers */,
 				42A2EB46272D2AD8004ADDD0 /* HelperFunctions */,
 				42A2EB3B272D240D004ADDD0 /* Stubs */,
 				42A2EB35272D2262004ADDD0 /* Modules */,
@@ -320,6 +323,14 @@
 				42A2EB42272D279B004ADDD0 /* TripTableViewCell.swift */,
 			);
 			path = "Trips Cells";
+			sourceTree = "<group>";
+		};
+		42A4B045273862C200E582D6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				42A4B046273862E900E582D6 /* CustomAnimation.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		49DC6125B6CAE0991D2DDE7E /* Pods */ = {
@@ -584,6 +595,7 @@
 				42A4AFF62732779200E582D6 /* ClippedView.swift in Sources */,
 				42A2EB34272D20FF004ADDD0 /* TripDescriptionModel.swift in Sources */,
 				42A2EB3E272D2452004ADDD0 /* MockLoader.swift in Sources */,
+				42A4B047273862E900E582D6 /* CustomAnimation.swift in Sources */,
 				42A2EB38272D22CD004ADDD0 /* TripsViewController.swift in Sources */,
 				42A4AFF22731690200E582D6 /* UIAnimation.swift in Sources */,
 				42A4B03C2738202300E582D6 /* TripDetailsViewController.swift in Sources */,
